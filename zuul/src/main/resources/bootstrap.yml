@@ -1,0 +1,11 @@
+spring:
+  application:
+    #    Application name
+    name: ZUUL
+  cloud:
+    config:
+      uri: http://localhost:9999
+#      The default profile to use when fetching remote configuration (comma-separated). Default is "default"
+      profile: eureka-client,zuul
+#      Name of application used to fetch remote properties.
+      name: application

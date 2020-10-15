@@ -1,0 +1,16 @@
+server:
+  #  Server HTTP port
+  port: 9999
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          username: 563421822@qq.com
+          password: D56342
+          uri: https://gitee.com/wyongliang/aa.git
+          search-paths: /config
+  application:
+    #    Application name
+    name: CONFIG-SERVER

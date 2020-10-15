@@ -1,0 +1,8 @@
+Spring:
+  cloud:
+    config:
+      uri: http://localhost:9999
+      #        prefix
+      name: application
+      #      suffix
+      profile: eureka-client,user

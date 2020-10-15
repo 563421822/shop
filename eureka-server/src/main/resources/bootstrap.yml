@@ -1,0 +1,15 @@
+spring:
+  application:
+    #    application name
+    name: EUREKA
+  cloud:
+    config:
+      uri: http://localhost:9999
+      #      prefix
+      name: eureka
+      #      suffix
+      profile: server
+      #      The label name to use to pull remote configuration properties. The default is set on the server (generally "master" for a git based server)
+      label: master
+
+
